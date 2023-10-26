@@ -108,7 +108,6 @@ body {
     background-image: url("../images/illustration.svg");
     background-position: right bottom;
     background-repeat: no-repeat;
-    height: 568px;
 }
 
 .hero-title {
@@ -203,5 +202,32 @@ body {
 .hero-medias-img {
     width: 36px;
     height: 36px;
+}
+
+.tools-title {
+    margin-top: 200px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.tools-desc {
+    display: block;
+    width: 427px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 166.667% */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
 }
 
