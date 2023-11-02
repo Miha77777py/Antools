@@ -41,7 +41,7 @@ body {
     margin-left: 3px;
 }
 
-.nav-list-item {
+.nav-list-item:nth-child(2) {
     display: flex;
 }
 
@@ -229,5 +229,35 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 110px;
+}
+
+.tools-btn {
+    margin-bottom: 200px;
+}
+
+.brands-title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 55px;
+}
+
+.brands-wrap {
+    /* width: 1224px; */
+    /* height: 253px; */
+    background-image: url("../images/rectangle-308.png");
+    background-repeat: no-repeat;
+}
+
+.brands-list {
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    gap: 107px;
+    padding-bottom: 60px;
 }
 
