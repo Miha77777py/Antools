@@ -25,3 +25,7 @@ img {
 input {
     border: none;
 }
+
+address {
+    font-style: normal;
+}

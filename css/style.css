@@ -204,11 +204,13 @@ body {
     height: 36px;
 }
 
+.tools {
+    padding: 200px 0;
+}
+
 .tools-title {
-    margin-top: 200px;
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Poppins;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -221,7 +223,6 @@ body {
     margin-top: 25px;
     color: rgba(255, 255, 255, 0.55);
     text-align: center;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -231,8 +232,169 @@ body {
     margin-bottom: 110px;
 }
 
+.tools-list {
+    width: 1224px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 24px;
+    row-gap: 100px;
+}
+
+.tools-list-item {
+    flex-basis: calc((100% - 124px) / 3);
+}
+
+.tools-list-img {
+    width: 65px;
+    height: 63.823px;
+}
+
+.tools-list-short-desc {
+    display: flex;
+    gap: 30px;
+}
+
+.tools-list-title {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.tools-list-pay {
+    color: rgba(255, 165, 55, 0.55);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.tools-list-item {
+    width: 392px;
+    height: 294px;
+    padding: 33px;
+    transition: 0.2s;
+}
+
+.tools-list-item:hover {
+    transform: translate(1px, -20px);
+    background-image: url("../images/rectangle-5.png");
+}
+
+.tools-list-item:hover .tools-list-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tools-list-item:hover .tools-list-pay {
+    color: #FFA537;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tools-list-item:hover .tools-list-desc {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
 .tools-btn {
-    margin-bottom: 200px;
+    display: block;
+    width: 184px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #1E252B;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    color: #FF6E30;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tools-list-desc {
+    color: rgba(255, 255, 255, 0.55);
+    width: 326px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin: 30px 0;
+    transition: 0.2s;
+}
+
+.tools-action-bar {
+    display: flex;
+}
+
+.tools-action-visit {
+    margin-left: auto;
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.tools-action-visit:hover {
+    background-color: #FF6E30;
+    color: #FFF;
+}
+
+.tools-action-list {
+    display: flex;
+    gap: 12px
+}
+
+.tools-action-item {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-action-btn {
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+}
+
+.folder {
+    background-image: url("../images/eva-folder-add-outline.svg");
+}
+
+.like {
+    background-image: url("../images/flat-color-icons-like.svg");
+    transition: 0.2s;
+}
+
+.like:hover {
+    background-image: url("../images/flat-color-icons-like-two.svg");
+    border-radius: 8px;
+    background-color: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
 }
 
 .brands-title {
@@ -243,7 +405,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-top: 55px;
 }
 
 .brands-wrap {
@@ -251,6 +412,8 @@ body {
     /* height: 253px; */
     background-image: url("../images/rectangle-308.png");
     background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-bottom: 60px;
 }
 
 .brands-list {
@@ -258,6 +421,4 @@ body {
     margin-top: 55px;
     justify-content: center;
     gap: 107px;
-    padding-bottom: 60px;
 }
-
