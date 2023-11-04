@@ -141,9 +141,10 @@ body {
 
 .hero-form {
     display: flex;
-    width: 497.659px;
+    width: 500px;
     height: 64px;
     background-image: url("../images/rectangle-314.png");
+    background-repeat: no-repeat;
     border-radius: 15px;
     align-items: center;
     margin-bottom: 110px;
