@@ -143,9 +143,8 @@ body {
     display: flex;
     width: 497.659px;
     height: 64px;
-    background-color: #283036;
+    background-image: url("../images/rectangle-314.png");
     border-radius: 15px;
-    border: 1.5px solid rgba(255, 255, 255, 0.10);
     align-items: center;
     margin-bottom: 110px;
 }
@@ -241,10 +240,6 @@ body {
     row-gap: 100px;
 }
 
-.tools-list-item {
-    flex-basis: calc((100% - 124px) / 3);
-}
-
 .tools-list-img {
     width: 65px;
     height: 63.823px;
@@ -274,14 +269,15 @@ body {
 }
 
 .tools-list-item {
-    width: 392px;
-    height: 294px;
+    flex-basis: calc((100% - 124px) / 3);
     padding: 33px;
     transition: 0.2s;
 }
 
 .tools-list-item:hover {
     transform: translate(1px, -20px);
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url("../images/rectangle-5.png");
 }
 
