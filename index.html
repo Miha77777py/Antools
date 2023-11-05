@@ -74,7 +74,7 @@
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
                                 <li class="tools-action-item"><button class="tools-action-btn folder"></button></li>
                             </ul>
-                            <button class="tools-action-visit">Visit</button>
+                            <a class="tools-action-visit" href=".">Visit</a>
                         </div>
                     </li>
                     <li class="tools-list-item">
@@ -91,7 +91,7 @@
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
                                 <li class="tools-action-item"><button class="tools-action-btn folder"></button></li>
                             </ul>
-                            <button class="tools-action-visit">Visit</button>
+                            <a class="tools-action-visit" href=".">Visit</a>
                         </div>
                     </li>
                     <li class="tools-list-item">
@@ -108,7 +108,7 @@
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
                                 <li class="tools-action-item"><button class="tools-action-btn folder"></button></li>
                             </ul>
-                            <button class="tools-action-visit">Visit</button>
+                            <a class="tools-action-visit" href=".">Visit</a>
                         </div>
                     </li>
                     <li class="tools-list-item">
@@ -125,7 +125,7 @@
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
                                 <li class="tools-action-item"><button class="tools-action-btn folder"></button></li>
                             </ul>
-                            <button class="tools-action-visit">Visit</button>
+                            <a class="tools-action-visit" href=".">Visit</a>
                         </div>
                     </li>
                     <li class="tools-list-item">
@@ -142,7 +142,7 @@
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
                                 <li class="tools-action-item"><button class="tools-action-btn folder"></button></li>
                             </ul>
-                            <button class="tools-action-visit">Visit</button>
+                            <a class="tools-action-visit" href=".">Visit</a>
                         </div>
                     </li>
                     <li class="tools-list-item">
@@ -159,7 +159,7 @@
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
                                 <li class="tools-action-item"><button class="tools-action-btn folder"></button></li>
                             </ul>
-                            <button class="tools-action-visit">Visit</button>
+                            <a class="tools-action-visit" href=".">Visit</a>
                         </div>
                     </li>
                 </ul>
@@ -180,46 +180,85 @@
             </div>
         </section>
         <section class="newcomer">
-            <h3 class="newcomer-title">Newcomer Tools</h3>
-            <p class="newcomer-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-            <button class="newcomer-btn">Explore more</button>
-            <ul class="newcomer-list">
-                <li class="newcomer-list-item">
-                    <img src="" alt="" class="newcomer-list-img">
-                    <h3 class="newcomer-list-title">Zeplin</h3>
-                    <p class="newcomer-list-pay">Free & Paid</p>
-                    <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                    <button class="newcomer-list-like">Lorem</button>
-                    <button class="newcomer-list-folder">Lorem</button>
-                    <button class="newcomer-list-visit">Visit</button>
-                </li>
-                <li class="newcomer-list-item">
-                    <img src="" alt="" class="newcomer-list-img">
-                    <h3 class="newcomer-list-title">PHPStorm</h3>
-                    <p class="newcomer-list-pay">Free</p>
-                    <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="newcomer-list-like">Lorem</button>
-                    <button class="newcomer-list-folder">Lorem</button>
-                    <button class="newcomer-list-visit">Visit</button></li>
-                <li class="newcomer-list-item">
-                    <img src="" alt="" class="newcomer-list-img">
-                    <h3 class="newcomer-list-title">Toolbox</h3>
-                    <p class="newcomer-list-pay">Free</p>
-                    <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="newcomer-list-like">Lorem</button>
-                    <button class="newcomer-list-folder">Lorem</button>
-                    <button class="newcomer-list-visit">Visit</button>
-                </li>
-                <li class="newcomer-list-item">
-                    <img src="" alt="" class="newcomer-list-img">
-                    <h3 class="newcomer-list-title">Procreate</h3>
-                    <p class="newcomer-list-pay">Paid</p>
-                    <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="newcomer-list-like">Lorem</button>
-                    <button class="newcomer-list-folder">Lorem</button>
-                    <button class="newcomer-list-visit">Visit</button>
-                </li>
-            </ul>
+            <div class="container">
+                <div class="newcomer-content-wrap">
+                    <div class="newcomer-text">
+                        <h3 class="newcomer-title">Newcomer Tools</h3>
+                        <p class="newcomer-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+                        <button class="newcomer-btn">Explore more</button>
+                    </div>
+                    <ul class="newcomer-list">
+                        <li class="newcomer-list-item">
+                            <div class="newcomer-list-short-desc">
+                                <img src="./images/zeplin.svg" alt="" class="newcomer-list-img">
+                                <div class="newcomer-list-short-text">
+                                    <h3 class="newcomer-list-title">Zeplin</h3>
+                                    <p class="newcomer-list-pay">Free & Paid</p>
+                                </div>
+                            </div>
+                            <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <div class="newcomer-action-bar">
+                                <ul class="newcomer-action-list">
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn like"></button></li>
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn folder"></button></li>
+                                </ul>
+                                <a class="newcomer-action-visit" href=".">Visit</a>
+                            </div>
+                        </li>
+                        <li class="newcomer-list-item">
+                            <div class="newcomer-list-short-desc">
+                                <img src="./images/jb-phpstorm.svg" alt="" class="newcomer-list-img">
+                                <div class="newcomer-list-short-text">
+                                    <h3 class="newcomer-list-title">PHPStorm</h3>
+                                    <p class="newcomer-list-pay">Free</p>
+                                </div>
+                            </div>
+                            <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <div class="newcomer-action-bar">
+                                <ul class="newcomer-action-list">
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn like"></button></li>
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn folder"></button></li>
+                                </ul>
+                                <a class="newcomer-action-visit" href=".">Visit</a>
+                            </div>
+                        </li>
+                        <li class="newcomer-list-item">
+                            <div class="newcomer-list-short-desc">
+                                <img src="./images/jb-toolbox-app.svg" alt="" class="newcomer-list-img">
+                                <div class="newcomer-list-short-text">
+                                    <h3 class="newcomer-list-title">Toolbox</h3>
+                                    <p class="newcomer-list-pay">Free</p>
+                                </div>
+                            </div>
+                            <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <div class="newcomer-action-bar">
+                                <ul class="newcomer-action-list">
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn like"></button></li>
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn folder"></button></li>
+                                </ul>
+                                <a class="newcomer-action-visit" href=".">Visit</a>
+                            </div>
+                        </li>
+                        <li class="newcomer-list-item">
+                            <div class="newcomer-list-short-desc">
+                                <img src="./images/procreate.png" alt="" class="newcomer-list-img">
+                                <div class="newcomer-list-short-text">
+                                    <h3 class="newcomer-list-title">Procreate</h3>
+                                    <p class="newcomer-list-pay">Paid</p>
+                                </div>
+                            </div>
+                            <p class="newcomer-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <div class="newcomer-action-bar">
+                                <ul class="newcomer-action-list">
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn like"></button></li>
+                                    <li class="newcomer-action-item"><button class="newcomer-action-btn folder"></button></li>
+                                </ul>
+                                <a class="newcomer-action-visit" href=".">Visit</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="team">
             <div class="team-people">

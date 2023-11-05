@@ -187,8 +187,7 @@ body {
 
 .hero-medias {
     display: flex;
-    gap: 8px;
-    
+    gap: 8px;   
 }
 
 .hero-medias-link {
@@ -233,7 +232,6 @@ body {
 }
 
 .tools-list {
-    width: 1224px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -339,6 +337,9 @@ body {
 }
 
 .tools-action-visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     width: 106px;
     height: 42px;
@@ -405,8 +406,6 @@ body {
 }
 
 .brands-wrap {
-    /* width: 1224px; */
-    /* height: 253px; */
     background-image: url("../images/rectangle-308.png");
     background-repeat: no-repeat;
     padding-top: 55px;
@@ -418,4 +417,178 @@ body {
     margin-top: 55px;
     justify-content: center;
     gap: 107px;
+}
+
+.newcomer {
+    padding-top: 220px;
+    padding-bottom: 215px;
+}
+
+.newcomer-content-wrap {
+    display: flex;
+    gap: 197px;
+}
+
+.newcomer-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 62.4px */
+    margin-bottom: 30px;
+}
+
+.newcomer-desc {
+    width: 427px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 60px;
+}
+
+.newcomer-btn {
+    width: 198px;
+    height: 58px;
+    border-radius: 8px;
+    background: #FF6E30;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.newcomer-list-desc {
+    color: rgba(255, 255, 255, 0.55);
+    width: 245px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin: 30px 0;
+    transition: 0.2s;
+}
+
+.newcomer-action-bar {
+    display: flex;
+}
+
+.newcomer-action-visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.newcomer-action-visit:hover {
+    background-color: #FF6E30;
+    color: #FFF;
+}
+
+.newcomer-action-list {
+    display: flex;
+    gap: 12px
+}
+
+.newcomer-action-item {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newcomer-action-btn {
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+}
+
+.newcomer-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 50px;
+}
+
+.newcomer-list-img {
+    width: 65px;
+    height: 63.823px;
+}
+
+.newcomer-list-short-desc {
+    display: flex;
+    gap: 30px;
+}
+
+.newcomer-list-title {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.newcomer-list-pay {
+    color: rgba(255, 165, 55, 0.55);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.newcomer-list-item {
+    flex-basis: calc((100% - 74px) / 2);
+    padding: 28px 21px;
+    transition: 0.2s;
+    width: 288px;
+    height: 284px;
+    border-radius: 15px;
+}
+
+.newcomer-list-item:hover {
+    transform: translate(1px, -20px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/rectangle-5-two.png");
+}
+
+.newcomer-list-item:hover .newcomer-list-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.newcomer-list-item:hover .newcomer-list-pay {
+    color: #FFA537;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newcomer-list-item:hover .newcomer-list-desc {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
 }
