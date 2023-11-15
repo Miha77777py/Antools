@@ -27,7 +27,7 @@
                     </ul>
                 </nav>
                 <ul class="login-list">
-                    <li class="login-list-item"><button class="login-item-btn login" onclick="on_click()">Login</button></li>
+                    <li class="login-list-item"><button class="login-item-btn login">Login</button></li>
                     <li class="login-list-item"><button class="login-item-btn sign-up">Sign Up</button></li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
                                 <p class="tools-list-pay">Free</p>
                             </div>
                         </div>
-                        <p class="tools-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        <p class="tools-list-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="tools-action-bar">
                             <ul class="tools-action-list">
                                 <li class="tools-action-item"><button class="tools-action-btn like"></button></li>
@@ -261,17 +261,23 @@
             </div>
         </section>
         <section class="team">
-            <div class="team-people">
-                <img src="" alt="" class="team-people-img">
-                <h3 class="team-people-title">Ronald Richards</h3>
-                <p class="team-people-desc">Product Manager</p>
+            <div class="container">
+                <div class="team-content-wrap">
+                    <button class="team-chevron-left"></button>
+                    <div class="main-content">
+                        <img src="./images/ronald.png" alt="" class="team-img">
+                        <div class="text-wrapper">
+                            <p class="team-desc">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+                        </div>
+                    </div>
+                    <button class="team-chevron-right"></button>
+                </div>  
+                <ul class="team-list">
+                    <li class="team-list-item"><span class="team-list-span"></span></li>
+                    <li class="team-list-item"><span class="team-list-span"></span></li>
+                    <li class="team-list-item"><span class="team-list-span"></span></li>
+                </ul>
             </div>
-            <p class="team-desc">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
-            <ul class="team-list">
-                <li class="team-list-item"><span class="team-list-span"></span></li>
-                <li class="team-list-item"><span class="team-list-span"></span></li>
-                <li class="team-list-item"><span class="team-list-span"></span></li>
-            </ul>
         </section>
         <section class="contributor">
             <h3 class="contributor-title">Become a contributor?</h3>
@@ -283,36 +289,43 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="footer-copyright">
-            <a href="#" class="footer-copyright-link"><img src="" alt="" class="footer-copyright-img"><span class="footer-copyright-span">antools.</span></a>
-            <h4 class="footer-copyright-title">Copyright 2021. Antools</h4>
-            <p class="footer-copyright-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
-        </div>
-        <div class="footer-help">
-            <div class="help-contact">
-                <h4 class="contact-title">Contact Us</h4>
-                <address class="contact-address">
-                    <ul class="address-list">
-                        <li class="address-list-item"><a class="address-list-link" href="tel:+621987463">+621987463</a></li>
-                        <li class="address-list-item"><p class="address-list-desc">M Building, No.10 A</p></li>
-                        <li class="address-list-item"><a class="address-list-link" href="mailto:antools@awesome.com">antools@awesome.com</a></li>
-                    </ul>
-                </address>
-            </div>
-            <div class="help-categories">
-                <h4 class="categories-title">Categories</h4>
-                <ul class="categories-list">
-                    <li class="categories-item"><a class="categories-link" href="">Design</a></li>
-                    <li class="categories-item"><a class="categories-link" href="">Development</a></li>
-                </ul>
-            </div>
-            <div class="help-info">
-                <h4 class="info-title">Company Info</h4>
-                <ul class="info-list">
-                    <li class="info-list-item"><a class="info-list-link" href="">About Us</a></li>
-                    <li class="info-list-item"><a class="info-list-link" href="">Our Partners</a></li>
-                    <li class="info-list-item"><a class="info-list-link" href="">Blog</a></li>
-                </ul>
+        <div class="container">
+            <div class="footer-content-wrap">
+                <div class="footer-copyright">
+                    <a href="#" class="footer-logo">
+                        <img src="./images/antools-footer.svg" alt="" class="footer-logo-img">
+                        <span class="footer-logo-text">antools.</span>
+                    </a>
+                    <h4 class="footer-copyright-title">Copyright 2021. Antools</h4>
+                    <p class="footer-copyright-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
+                </div>
+                <div class="footer-help">
+                    <div class="help-contact">
+                        <h4 class="contact-title">Contact Us</h4>
+                        <address class="contact-address">
+                            <ul class="address-list">
+                                <li class="address-list-item"><a class="address-list-link" href="tel:+621987463">+621987463</a></li>
+                                <li class="address-list-item"><p class="address-list-desc">M Building, No.10 A</p></li>
+                                <li class="address-list-item"><a class="address-list-link" href="mailto:antools@awesome.com">antools@awesome.com</a></li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="help-categories">
+                        <h4 class="categories-title">Categories</h4>
+                        <ul class="categories-list">
+                            <li class="categories-list-item"><a class="categories-list-link" href="">Design</a></li>
+                            <li class="categories-list-item"><a class="categories-list-link" href="">Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-info">
+                        <h4 class="info-title">Company Info</h4>
+                        <ul class="info-list">
+                            <li class="info-list-item"><a class="info-list-link" href="">About Us</a></li>
+                            <li class="info-list-item"><a class="info-list-link" href="">Our Partners</a></li>
+                            <li class="info-list-item"><a class="info-list-link" href="">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

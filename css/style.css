@@ -37,12 +37,13 @@ body {
     height: 18px;
     background-image: url("../images/chevron-down.svg");
     background-repeat: no-repeat;
-    margin-top: 5px;
-    margin-left: 3px;
+    margin-bottom: 1px;
 }
 
 .nav-list-item:nth-child(2) {
     display: flex;
+    align-items: flex-end;
+    gap: 2px;
 }
 
 .header-nav {
@@ -142,12 +143,15 @@ body {
 .hero-form {
     display: flex;
     width: 502px;
-    height: 68px;
     background-image: url("../images/rectangle-314.png");
     background-repeat: no-repeat;
     border-radius: 15px;
     align-items: center;
     margin-bottom: 110px;
+    padding-right: 11.04px;
+    padding-left: 18.06px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .hero-form-btn {
@@ -161,7 +165,6 @@ body {
     font-weight: 600;
     line-height: normal;
     margin-left: auto;
-    margin-right: 11.04px;
 }
 
 .hero-form-input {
@@ -182,7 +185,6 @@ body {
     width: 24.08px;
     height: 24px;
     background-image: url("../images/search.svg");
-    margin-left: 18.06px;
 }
 
 .hero-medias {
@@ -217,7 +219,6 @@ body {
 }
 
 .tools-desc {
-    display: block;
     width: 427px;
     margin-top: 25px;
     color: rgba(255, 255, 255, 0.55);
@@ -234,7 +235,6 @@ body {
 .tools-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     column-gap: 24px;
     row-gap: 100px;
 }
@@ -398,7 +398,6 @@ body {
 .brands-title {
     text-align: center;
     color: rgba(255, 255, 255, 0.80);
-    font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -591,4 +590,254 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
+}
+
+.team-chevron-left {
+    width: 80px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: url("../images/chevron-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-chevron-right {
+    width: 80px;
+    height: 100px;
+    width: 80px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: url("../images/chevron-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-content-wrap {
+    display: flex;
+    align-items: center;
+    gap: 108px;
+}
+
+.team-desc {
+    width: 393px;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1;
+    letter-spacing: 0.21px;
+}
+
+.text-wrapper {
+    width: 445px;
+    height: 225px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("../images/bracket.png");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    gap: 18px;
+}
+
+.team-list-item:nth-child(2) {
+    background-color: rgba(255, 110, 48, 1);
+    height: 8px;
+}
+
+.team-list-item {
+    width: 44px;
+    height: 6px;
+    background-color: rgba(40, 48, 54, 1);
+    border-radius: 4px;
+}
+
+.contributor {
+    padding-top: 250px;
+    padding-bottom: 240px;
+}
+
+.contributor-title {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+
+.contributor-desc {
+    width: 427px;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.contributor-form {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/contributor-form.png");
+    width: 553px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-left: 24.18px;
+    padding-right: 12.38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contributor-form-btn {
+    margin-left: auto;
+    width: 130.435px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FF6E30;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contributor-form-input {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 98px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-content-wrap {
+    display: flex;
+    gap: 156px;
+}
+
+.footer-logo-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.footer-copyright-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.footer-copyright-desc {
+    width: 260px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+}
+
+.footer-help {
+    display: flex;
+    gap: 115px;
+}
+
+.contact-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.address-list-item {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.address-list-link {
+    color: inherit;
+}
+
+.categories-list-item {
+    margin-top: 10px;
+}
+
+.categories-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.categories-list-link {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info-list-item {
+    margin-top: 10px;
+}
+
+.info-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.info-list-link {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
