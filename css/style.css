@@ -363,14 +363,6 @@ body {
     gap: 12px
 }
 
-.tools-action-item {
-    display: flex;
-    width: 42px;
-    height: 42px;
-    justify-content: center;
-    align-items: center;
-}
-
 .tools-action-btn {
     width: 42px;
     height: 42px;
@@ -501,14 +493,6 @@ body {
     gap: 12px
 }
 
-.newcomer-action-item {
-    display: flex;
-    width: 42px;
-    height: 42px;
-    justify-content: center;
-    align-items: center;
-}
-
 .newcomer-action-btn {
     width: 42px;
     height: 42px;
@@ -603,8 +587,6 @@ body {
 }
 
 .team-chevron-right {
-    width: 80px;
-    height: 100px;
     width: 80px;
     height: 100px;
     border-radius: 8px;
@@ -729,24 +711,7 @@ body {
     line-height: normal;
 }
 
-.footer {
-    padding-top: 70px;
-    padding-bottom: 98px;
-    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
-}
-
-.footer-content-wrap {
-    display: flex;
-    gap: 156px;
-}
-
-.footer-logo-text {
-    color: rgba(255, 255, 255, 0.90);
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
+c
 
 .footer-logo {
     display: flex;
