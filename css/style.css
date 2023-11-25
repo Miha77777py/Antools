@@ -711,7 +711,24 @@ body {
     line-height: normal;
 }
 
-c
+.footer {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 98px;
+    padding-top: 70px;
+}
+
+.footer-content-wrap {
+    display: flex;
+    gap: 156px;
+}
+
+.footer-logo-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
 .footer-logo {
     display: flex;
