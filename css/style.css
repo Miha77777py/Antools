@@ -540,8 +540,6 @@ body {
     flex-basis: calc((100% - 74px) / 2);
     padding: 28px 21px;
     transition: 0.2s;
-    width: 288px;
-    height: 284px;
     border-radius: 15px;
 }
 
